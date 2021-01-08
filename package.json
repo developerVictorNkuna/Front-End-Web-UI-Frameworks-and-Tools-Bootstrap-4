@@ -4,13 +4,17 @@
   "description": "Git test coursera course",
   "main": "index.js",
   "scripts": {
-  "start":"npm run lite",
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "lite":"lite-server"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "Victor NKuna",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1"
   }
 }
