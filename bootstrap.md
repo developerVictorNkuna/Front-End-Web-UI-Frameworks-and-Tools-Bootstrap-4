@@ -3,3 +3,6 @@ Originated: 2011,Created at Twitter,some people call it,
 Twitter Bootstrap>
 Mark Otto and Jacob Thornton
 
+$ npm i jquery
+$ npm install bootstrap@next
+

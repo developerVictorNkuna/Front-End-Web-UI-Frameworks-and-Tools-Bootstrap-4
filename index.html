@@ -1,25 +1,59 @@
 <!DOCTYPE html>
+<!--
+    Front-End Web UI Frameworks and Tools: Bootstrap 4
+    The Hong Kong University of Science and Technolpgy
+-->
 <html lang="en">
 <head>
+    <!--neta required tags always come first-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-End Web UI Frameworks and Tools: Bootstrap 4
-        The Hong Kong University of Science and Technology</title>
+    <meta http-equiv="x-ua-compatible " content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no" >
+    <title>Restorante Con Fusion</title>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href = "/node_modules/bootstrap/dist/css/bootstrap.min.css" >
+        
 </head>
-<body>
-    <p>I am paragraph </p>
-    <p>Mr Godwin Review Victor's Work</p>
-    <form>
-        <fieldset style="width:50%">
-            <label>Name:</label><input type="text" /><br />
-            <br />
-            
-            <label>E-Mail</label><input type="email" /><br />
-            <br />
-            <input type="submit"name="Send">
 
-        </fieldset>
-    </form>
-    
+<body>
+    <header>
+        <div>
+            <div>
+                <div>
+                    <h1>Restorante   con Fusion</h1>
+                    <P>We take inspiration from the best cuizines</P>
+                </div>
+            </div>
+        </div>
+       
+
+    </header>
+    <!--The navigation is starting here-->
+    <nav>
+        
+    </nav><!--The section start here-->
+    <section>
+        <p>Review </p>
+        <p>Mr Godwin Review Victor's Work</p>
+        <form>
+            <fieldset style="width:50%">
+                <label>Name:</label><input type="text" /><br />
+                <br />
+                <label>E-Mail</label><input type="email" /><br />
+                <br />
+                <input type="submit"name="Send">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <div>
+            Copyright 2018 Ristorante Con Fusion
+        </div>
+    </footer>
+    <!--JQUERY FIRST ,THEN JS,THEN BOOTSTRAP
+    (becuase bootstrap depend on jquery and javascript in the ppoer module)-->
+    <script src ="/home/cs/coursera/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src ="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html
